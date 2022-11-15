@@ -1,0 +1,91 @@
+body{
+    background-color: #EFEEE5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    color: #274546;
+}
+
+input, button{
+    padding: .4rem .6rem;
+    border: none;
+    border: 1px solid #2745464d;
+    border-radius: 4px 4px 24px 4px;
+    background-color: #FBF8F3;
+    box-shadow: inset 2px 2px 6px white, inset -5px -5px 6px white, -6px -6px 12px white, 2px 2px 6px #2745464d;
+    outline: none;
+    transition: .3s;
+    width: 50%;
+}
+
+input:focus{
+    box-shadow: inset 2px 2px 6px #2745464d, inset -5px -5px 6px white, -6px -6px 12px white, 2px 2px 6px white;
+}
+input::placeholder{
+    color: #274546;
+}
+
+.categories {
+    padding: 2rem 2rem;
+}
+
+.category-title{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.category-title::after {
+    content: '';
+    width: 70vw;
+    height: 1px;
+    background: linear-gradient(#fff, #274546);
+    background: linear-gradient(to right, #274546 0%, #EFEEE5 80%);
+    margin-top: 6px;
+}
+
+.gif-card-grid{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.gif-card{
+    width: 20%;
+    background-color: #FBF8F3;
+    border-radius: 6px;
+    box-shadow: 2px 6px 24px #2745464d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.gif-card img{
+    width: 100%;
+}
+
+.gif-title{
+    padding: 0 1rem;
+}
+
+
+@media screen and (max-width: 576px) {
+    .gif-card{
+        width: 100%;
+    }
+    input{
+        width: 90%;
+    }
+}

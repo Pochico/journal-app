@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstComponent Render Test with Enzyme should render the salute 1`] = `
+<Fragment>
+  <h1>
+    Hola, Julen.
+  </h1>
+  <p
+    className="hello"
+  >
+    Tu ID es 
+  </p>
+</Fragment>
+`;

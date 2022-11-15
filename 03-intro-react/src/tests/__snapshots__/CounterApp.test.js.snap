@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterApp test Should return default prop value (100) 1`] = `
+<Fragment>
+  <h3>
+    CounterApp
+  </h3>
+  <p
+    className="counter"
+  >
+    10
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    + 1
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    - 1
+  </button>
+</Fragment>
+`;
