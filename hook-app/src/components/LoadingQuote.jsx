@@ -1,7 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export default function LoadingQuote() {
-  return (
-    <div>Loading quote...</div>
-  )
+    return <h3>Loading quote...</h3>;
 }
