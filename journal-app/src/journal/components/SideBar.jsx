@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import { Box } from '@mui/system';
 
-export const SideBar = ({ drawerWidth = 240 }) => {
+export const SideBar = ({ drawerWidth = 280 }) => {
     return (
         <Box
             component="nav"

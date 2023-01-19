@@ -11,7 +11,7 @@ export const NothingSelectedView = () => {
             justifyContent="center"
             sx={{
                 minHeight: 'calc(100vh - 110px)',
-                minWidth: 'calc(100vw - 310px)',
+                minWidth: 'calc(100vw - 350px)',
                 backgroundColor: 'primary.main',
                 borderRadius: 3,
             }}
