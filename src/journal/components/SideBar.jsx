@@ -16,7 +16,7 @@ export const SideBar = ({ drawerWidth = 280 }) => {
                 variant="permanent"
                 open
                 sx={{
-                    display: { xs: 'block' },
+                    display: { sm: 'block' },
                     '& .MuiDrawer-paper': {
                         boxSizing: 'border-box',
                         width: drawerWidth,
