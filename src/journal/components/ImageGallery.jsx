@@ -1,6 +1,6 @@
 import { Box, ImageList, ImageListItem } from '@mui/material';
 
-export const ImageGallery = ({images}) => {
+export const ImageGallery = ({images = []}) => {
 
     return (
         <Box sx={{ width: '100%' }}>
